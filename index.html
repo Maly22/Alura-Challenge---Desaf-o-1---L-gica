@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - Desafío 1 - Lógica</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Imagenes/Logo.png" alt="Logotipo">
+    </header>
+    <main class="presentacion__izq">
+        <div class="presentacion__contenido">
+        
+        <input class="ingresar__texto" type="text" id="text" oninput="resizeInput()" placeholder="Ingrese el texto aquí...">
+        <div class="botones__izquierdo"> 
+        <p class="presentacion__texto__letras">Solo letras minúsculas</p>
+        <button onclick="verificarEncriptar();" class="presentacion__enlace__link1" id="encryptButton">Encriptar</button>
+        <button onclick="verificarDesencriptar();" class="presentacion__enlace__link2" id="decryptButton">Desencriptar</button>
+        <button onclick="copiarTexto();" class="presentacion__enlace__link3" id="copyButton">Copiar</button>
+        </div>
+    </div>
+        <div id="result"class="result-container"></div>>
+        <div class="imagen__container">
+            <div class="presentacion__imagen__wrapper">
+        <img class="presentacion__imagen" src="./Imagenes/Muñeco.png" alt="Foto de muñeco">
+    <div class="texto__container"></div>
+        <p class=" presentacion__texto__derecho"> 
+            <strong id="resultMessage"> Ningún mensaje fue encontrado </strong>
+         </p>
+        <p class="presentacion__texto__derecho2">
+         Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+    </div>
+    
+    </main>
+         
+    <footer class="footer">
+    <p>Desarrollado por: Marilyn Malpu</p>
+    <p>Contacto: marilynmalpu22@gmail.com</p>
+    </footer>
+    
+    <script src="script.js"> </script>
+
+</body>
+</html>
