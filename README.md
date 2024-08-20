@@ -1,7 +1,9 @@
 # Alura-Challenge---Desaf-o-1---L-gica
 
 Español
+
 Descripción del Proyecto
+
 Este proyecto es una aplicación web para encriptar y desencriptar texto. La interfaz permite al usuario ingresar texto en un área de texto y utilizar botones para encriptar o desencriptar el contenido. El resultado se muestra en un área designada en la parte derecha de la pantalla.
 
 Funcionalidades
@@ -23,7 +25,9 @@ Tecnologías Utilizadas
 HTML
 CSS
 JavaScript
+
 English
+
 Project Description
 This project is a web application for encrypting and decrypting text. The interface allows the user to enter text into a text area and use buttons to encrypt or decrypt the content. The result is displayed in a designated area on the right side of the screen.
 
